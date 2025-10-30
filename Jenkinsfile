@@ -7,7 +7,7 @@ pipeline {
         PATH = "${GITLEAKS_BIN}:${env.PATH}"
     }
     triggers {
-        cron '30 21 * * 1-5' // Runs at 21:00 on every day-of-week from Monday through Friday
+        cron '30 21 * * 1-5' // Runs at 21:30 on every day-of-week from Monday through Friday
     }
 
     stages {
